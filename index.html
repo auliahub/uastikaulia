@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS UAS</title>
+    <style>
+        /* Gaya dasar untuk halaman */
+        body {
+            font-family: 'monospace;';
+            background-color: beige;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            padding: 5px;
+            background: lightpink;
+            color: yellow;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+        }
+
+        /* Dropdown Menu di Header */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .dropdown button {
+            background-color: deeppink;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .dropdown button:hover {
+            background-color: pink;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 160px;
+        }
+        .dropdown-content a {
+            color: hotpink;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: whitesmoke;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .content {
+            padding: 25px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: lightpink;
+            color: black;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog UIN SUKA</h1>
+        <p>Temukan informasi mengenai fakultas kami di sini</p>
+        <div class="dropdown">
+            <button>Fakultas</button>
+            <div class="dropdown-content">
+                <a href="#">Adab dan Ilmu Budaya</a>
+                <a href="#">Dakwah dan Komunikasi</a>
+                <a href="#">Syariah dan Ilmu Komunikasi</a>
+            </div>
+        </div>
+         <div class="dropdown">
+            <button>Galeri</button>
+            <div class="dropdown-content">
+                <a href="#">Addres</a>
+                <a href="#">Foto</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <h2>Selamat datang di blog kami</h2>
+        <p>Kalian bisa mendapatkan informasi mengenai fakultas kami di web ini! Kepuasan kalian adalah kepuasan kami</p>
+    </div>
+
+    <footer>
+        &copy; 24101040024 Aulia Maharani kelas A.
+    </footer>
+</body>
+</html>
